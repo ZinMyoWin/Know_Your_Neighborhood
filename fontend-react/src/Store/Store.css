@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+}
+
+.search-input {
+  float: right;
+  margin-right: 20%;
+
+
+}
+
+.search-input input {
+  background-color: #84daff;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 2rem;
+}
+
+.store-container {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.store-card {
+  border: 1px solid #84daff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.store-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.store-card>h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
